@@ -1,0 +1,17 @@
+﻿<Window x:Class="Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="261" Margin="134,22,0,0" VerticalAlignment="Top" Width="261">
+            <Button Content="normal" Click="Button_Click" Height="30"/>
+            <Button Content="alert" Click="Button_Click_1" Height="30"/>
+            <Button Content="one chose" Click="Button_Click_2" Height="30"/>
+            <Button Content="two chose" Click="Button_Click_3" Height="30"/>
+            <Button Content="three chose" Click="Button_Click_4" Height="30"/>
+            <Button Content="count down" Click="Button_Click_5" Height="30"/>
+            <Button Content="rich text" Click="Button_Click_6" FontFamily="Segoe Script" Height="30"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
